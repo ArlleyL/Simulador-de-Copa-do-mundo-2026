@@ -1,0 +1,78 @@
+.container-mata-mata{
+    overflow-x: auto;
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.mata-mata{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.playoff{
+    display: grid;
+    gap:20px;
+}
+.oitavas{
+    align-self: center;
+    display: grid;
+    gap: 82px;
+}
+.quartas, .final{
+    display: grid;
+    align-self: center;
+    gap: 205px;
+}
+.semi{
+    display: grid;
+    align-self: center;
+    gap: 450px;
+}
+.winnerdiv{
+    align-self: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.winner{
+    width: 80px;
+    height: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+.m{
+    width: 45px;
+    height: 30px;
+    margin: 5px;
+}
+label{
+    line-height: -50px;
+}
+.trofeu{
+    border: none;
+    background-color: rgb(243, 243, 243);
+    height: 100px;
+    width: 50px;
+}
+
+@media (max-width: 708px){
+    .mata-mata{
+        margin-left: 200px;
+    }
+    .m{
+        width: 40px;
+        height: 27px;
+    }
+    .oitavas{
+        gap:79px;
+    }
+    .quartas, .final{
+        gap:197px;
+    }
+    .semi{
+        gap: 430px;
+    }
+}

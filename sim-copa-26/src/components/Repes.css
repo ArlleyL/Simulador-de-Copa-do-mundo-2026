@@ -1,0 +1,43 @@
+.Repescagem{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.titulo-descricao{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: smaller;
+    margin-left: 20px;
+    text-align: center;
+    background-color: rgb(30, 255, 0);
+    padding:10px;
+    border-radius: 10px;
+}
+.par{
+    font-size: small;
+    margin-top: 10px;
+}
+.inseridos{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+button{
+    margin-top: 40px;
+    padding:20px;
+    border: none;
+    background-color: rgb(6, 123, 2);
+    border-radius: 15px;
+    color:white;
+}
+button:hover{
+    background-color: rgb(67, 148, 64);
+}
+
+@media (max-width: 662px){
+    .Repescagem{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
